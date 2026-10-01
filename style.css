@@ -20,6 +20,47 @@
 }
 
 body{
-   
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: hsl(36, 100%, 84%);
+}
+main{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
+}
+
+.cabecalho-link{
+    color: hsl(271, 76%, 53%);
+   text-decoration: none;
+
+}
+
+h1{
+    color: hsl(248, 39%, 39%);
+    text-size: 24px;
+
+}
+
+footer{
+    background-color: hsl(34, 78%, 91%);
+    padding: 15px 25px;
+    color: hsl(240, 100%, 50%);
+}
+
+.cartao-interno{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartap:hover .cartao-interno{
+    transform: rotateY(180deg);
+}
+
+.cartao-frente, .cartao-verso{
+    
 }
